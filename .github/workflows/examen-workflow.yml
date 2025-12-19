@@ -1,14 +1,13 @@
 name: Prueba examen workflow
 
 on:
-  pull_request:
+  push:
     branches:
       - nueva-caracteristica
 
 jobs:
   tests:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-python@v6
