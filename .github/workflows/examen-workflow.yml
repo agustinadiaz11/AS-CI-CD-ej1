@@ -2,7 +2,7 @@ name: Prueba examen workflow
 
 on:
   push:
-    branches: ["main"]
+    branches: ["nueva-caracteristica"]
 
 jobs:
   tests:
